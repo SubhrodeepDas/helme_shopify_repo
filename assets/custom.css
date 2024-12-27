@@ -1,0 +1,309 @@
+body
+{
+  font-family: "Roboto", serif;
+}
+
+html ::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+  border-radius: 50px;
+}
+
+html ::-webkit-scrollbar-track {
+  background-color: #ccc;
+  border-radius: 50px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background-color: #006e35;
+  border-radius: 50px;
+}
+
+
+
+.section {
+  padding: 120px 0;
+}
+.header:not(.drawer-menu).page-width {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.header--middle-left {
+  grid-template-areas: "heading navigation icons";
+  grid-template-columns: 2fr 8fr 2fr;
+  column-gap: 2rem;
+}
+.header__inline-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__area.hero__area--3 {
+  padding: 160px 0;
+}
+
+.hero__content .title {
+  color: #00a851;
+  font-size: 92px;
+  font-weight: bold;
+  line-height: 100px;
+  letter-spacing: 1px;
+  margin: 0 0 45px 0;
+}
+
+.hero__content p {
+  color: #000;
+  font-size: 22px;
+  line-height: 37px;
+  width: 666px;
+}
+
+.site-btn {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  background: #00a851;
+  padding: 9.5px 15px;
+  text-decoration: none;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-weight: 500;
+  border: 2px solid #00a851;
+}
+
+section.static-bg {
+  height: 90vh;
+}
+.banner-product-img img {
+  position: absolute;
+  right: 67px;
+  top: 66px;
+  width: 731px;
+}
+section.section__three .hero__content.hero__content--3 h2 {
+  font-size: 88px;
+  color: #00a851;
+  line-height: 100px;
+  margin-bottom: 40px;
+}
+section.section__three {
+  background-color: #f2f2f2;
+}
+
+section.section__three .icon-box img {
+  width: 65px;
+  margin-bottom: 20px;
+  height: 65px;
+  object-fit: contain;
+}
+section.section__three .icon-box h3 {
+  color: #00a851;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto 12px auto;
+}
+section.section__three .icon-box p {
+  color: #000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 39px;
+  margin: 5px auto;
+  width: 406px;
+}
+section.section__three .icon-box {
+  text-align: center;
+  margin-top: 40px;
+}
+.header__inline-menu ul li:not(:last-child) {
+  margin-right: 25px;
+}
+.header__menu-item:hover span {
+  text-decoration: none;
+  text-underline-offset: 0.3rem;
+}
+
+.list-menu.list-menu--inline li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 7px 17px;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 22px;
+  font-weight: 600;
+}
+section.bg_image.section__two {
+  background-position: -221px 67%;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: cover;
+}
+
+section.bg_image.section__two .hero__content.hero__content--3 h2 {
+  font-size: 75px;
+  color: #00a851;
+  text-align: right;
+  line-height: 89px;
+  margin-bottom: 40px;
+}
+section.bg_image.section__two div.section__para p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  text-align: right;
+  width: 542px;
+  margin: 20px 0 50px auto;
+}
+.site-btn2 {
+  text-decoration: none;
+  font-size: 15px;
+  color: #00a851;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+section.bg_image.section__two .left-clamp img {
+  position: absolute;
+  width: 471px;
+  left: 9%;
+  top: 155px;
+  bottom: 0%;
+}
+section.bg_image.section__three .hero__content.hero__content--3 h2 {
+  font-size: 75px;
+  color: #00a851;
+  text-align: left;
+  line-height: 89px;
+  margin-bottom: 40px;
+}
+section.bg_image.section__three .right-clamp img {
+  position: absolute;
+  width: 471px;
+  right: 10%;
+  top: 59px;
+  bottom: 0%;
+}
+section.bg_image.section__three {
+  background-color: #d8d8d8;
+  position: relative;
+  height: auto;
+}
+section.bg_image.section__three div.section__para p {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: left;
+  width: 605px;
+  margin: 20px auto 40px 0;
+}
+.ml-21 {
+  margin-left: 21px;
+}
+.mr-19 {
+  margin-right: 19px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.header {
+  padding-top: 15px!important;
+  padding-bottom: 15px!important;
+}
+.header__heading-link {
+    display: inline-block;
+    padding: 0rem .75rem 0rem .75rem;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.store-sec
+{
+  padding: 100px 0;
+}
+
+.text-box {
+    font-weight: 600;
+    background-color: #f4f4f4;
+    /* border: 1px solid; */
+    border: 1px solid #e2dfdd;
+    /* padding: 0px 20px 20px 10px; */
+    /* padding-bottom: 20px; */
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.text-box p {
+    color: #000;
+}
+.blog__sidebar .widget {
+    background-color: #F4F4F4;
+    border: 1px solid #E2DFDD;
+    padding: 0px 20px 20px 10px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+}
+.blog__sidebar.blog__sidebar--shop {
+    padding-right: 2rem;
+}
+.blog__sidebar .widget {
+    background-color: #F4F4F4;
+    border: 1px solid #E2DFDD;
+    padding: 0px 20px 20px 10px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+
+.blog__sidebar.blog__sidebar--shop h2 button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: transparent;
+}
+
+.blog__sidebar.blog__sidebar--shop .accordion-item {
+    background-color: #fff0;
+    border: 0px solid rgba(0, 0, 0, .125);
+}
+.blog__sidebar.blog__sidebar--shop .accordion-button {
+    padding: 1rem 0.5rem;
+}
+.blog-area .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 116px;
+    z-index: 1;
+}
+
+.pp__thumb--2 {
+    min-height: 250px;
+    background-color: #ebebeb;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+.pp__content.pp__content--2 {
+    padding: 20px 15px 30px 15px;
+}
+.products .pp__title a{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-height: 88px;
+    font-size: 17px;
+  text-decoration: none;
+    color: #00a851;
+    font-weight: 600;
+    min-height: 88px;
+}
+

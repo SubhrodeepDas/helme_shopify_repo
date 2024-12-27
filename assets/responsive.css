@@ -1,0 +1,21 @@
+/* Responsive Start  */
+
+@media (min-width:1600px) {
+    .container {
+      max-width: 1400px
+    }
+  }
+  
+  @media (min-width:1800px) {
+    .container {
+      max-width: 1430px
+    }
+  
+    .page-width
+    {
+         max-width: 1430px
+    }
+  
+  }
+  
+  
